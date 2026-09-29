@@ -1,0 +1,10 @@
+# Modernized for GitHub Actions (ubuntu-latest, Python 3.12).
+# Upstream pinned selenium==3.141.0 which cannot drive modern Chrome;
+# code in oddsportal/ has been updated to the Selenium 4 API.
+cssselect
+joblib
+lxml
+pyquery
+selenium>=4.6
+soupsieve
+urllib3
